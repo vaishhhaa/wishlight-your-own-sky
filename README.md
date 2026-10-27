@@ -29,37 +29,38 @@ I wanted to create an experience that brings together technology, creativity, an
 
 ## 🌌 Explore Wishlight
 
-### 🏠 1. Your Own Sky
+### 🏠 1. Wishlight Homepage
 
-Your personal night sky is the heart of Wishlight. A calm, immersive environment gives your wishes a place to exist beyond an ordinary list or checklist.
+Welcome to your own sky — a peaceful night sky where your dreams come to life. Glowing lanterns represent your wishes, creating a magical and personal space for your hopes and goals.
 
 ![Wishlight Homepage](screenshots/homepage.png)
 
-### 🏮 2. Wishes That Float as Lanterns
+### ✨ 2. Create a New Wish
 
-In Wishlight, wishes are represented by glowing lanterns floating across the sky. Each lantern brings a visual touch of warmth and magic to the dreams it represents.
+Turn your dreams into wishes by adding a title, description, and other details. Wishlight makes it easy to capture the things you hope to achieve.
 
-![Floating Wish Lanterns](screenshots/floating-lanterns.png)
+![Create a New Wish](screenshots/new-wish.png)
 
-### 📅 3. A Date for Every Dream
+### 📅 3. Set a Target Date
 
-Every wish can have a desired completion date — a date you hope to make that dream a reality. It adds a sense of purpose and encourages you to keep moving toward what matters to you.
+Give every dream a date to work toward. The date picker lets you choose your desired completion date and gives your wishes a sense of direction and purpose.
 
-![Wish Details and Target Date](screenshots/wish-details.png)
+![Wish Target Date Picker](screenshots/wish-date-picker.png)
 
-### 🌙 4. A Moon That Changes With Its Phases
+### 💼 4. Dream Job Wish Details
 
-The moon is not simply a static decoration. Its changing appearance brings a sense of movement and connection to the natural night sky.
+View your wishes in detail and keep your goals close to your heart. Whether it is landing your dream job or achieving a personal milestone, every wish deserves a place in your sky.
 
-![Changing Moon](screenshots/moon-phases.png)
+![Dream Job Wish Details](screenshots/wish-details.png)
 
-### 💫 5. A Sky Filled With Possibilities
+### ✈️ 5. Travel Dreams
 
-Every wish adds another light to your personal universe. Together, the lanterns create a visual representation of your hopes, goals, and dreams.
+Your sky is filled with endless possibilities. From exploring new places to achieving lifelong dreams, Wishlight gives every aspiration its own little light.
 
-![Wishlight Full Sky](screenshots/full-sky.png)
+![Travel Wish Details](screenshots/wish-example.png)
 
 ---
+
 
 ## 💖 Features
 
