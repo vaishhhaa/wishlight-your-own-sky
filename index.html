@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#05060f">
+    <meta name="description" content="Wishlight — a dreamy wishlist where your dreams float as lanterns in the night sky.">
+    <title>Wishlight — Your Dreams in the Sky</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <main class="sky" aria-label="Your sky of wishes">
+        <div class="milkyway" aria-hidden="true"></div>
+        <canvas class="star-canvas" id="starCanvas" aria-hidden="true"></canvas>
+        <div class="shooting-stars" id="shootingStars" aria-hidden="true"></div>
+
+        <div class="moon" id="moon" tabindex="0" role="img" aria-label="The moon tonight">
+            <canvas id="moonCanvas" width="280" height="280"></canvas>
+            <span class="moon-label" id="moonLabel"></span>
+        </div>
+
+        <div class="horizon-glow" aria-hidden="true"></div>
+        <div class="fog" aria-hidden="true"></div>
+        <div class="lantern-layer" id="lanterns"></div>
+    </main>
+
+    <header class="topbar">
+        <div class="brand-wrap">
+            <p class="eyebrow">A little sky for your biggest dreams</p>
+            <h1 class="brand">WISHLIGHT</h1>
+            <p class="tagline">Every dream deserves a little light.</p>
+        </div>
+        <button class="new-wish" type="button" id="newWishBtn">+ New Wish</button>
+    </header>
+
+    <footer class="counter" id="counter" aria-live="polite"></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script id="wishes-data" type="application/json">{{ wishes|tojson }}</script>
+
+    <div class="modal-backdrop" id="wishModal" hidden>
+        <section class="wish-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="close-btn" type="button" data-close aria-label="Close">×</button>
+            <div class="modal-lantern" id="modalLantern" aria-hidden="true"></div>
+            <p class="modal-label" id="modalCategory">Career</p>
+            <h2 id="modalTitle">Your wish</h2>
+            <p class="modal-description" id="modalDescription"></p>
+
+            <div class="wish-meta">
+                <span id="modalStatus">Dreaming</span>
+                <span id="modalDate"></span>
+            </div>
+
+            <div class="modal-actions">
+                <button class="ghost-btn" type="button" id="cycleStatusBtn">Change status</button>
+                <button class="danger-btn" type="button" id="deleteWishBtn">Let it go</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="modal-backdrop" id="newWishModal" hidden>
+        <section class="wish-card form-card" role="dialog" aria-modal="true" aria-labelledby="newWishTitle">
+            <button class="close-btn" type="button" data-close aria-label="Close">×</button>
+            <span class="wish-sparkle">✦</span>
+            <p class="modal-label">Release something into the sky</p>
+            <h2 id="newWishTitle">What are you wishing for?</h2>
+
+            <form id="wishForm">
+                <label>
+                    Wish title
+                    <input id="title" name="title" maxlength="100" required placeholder="Get my dream job">
+                </label>
+
+                <label>
+                    Tell its story
+                    <textarea id="description" name="description" maxlength="500" placeholder="Write a few words about this dream..."></textarea>
+                </label>
+
+                <div class="form-grid">
+                    <label>
+                        Category
+                        <select id="category" name="category">
+                            <option>Career</option><option>Travel</option><option>Personal</option>
+                            <option>Family</option><option>Love</option><option>Education</option>
+                            <option>Finance</option><option>Health</option><option>Other</option>
+                        </select>
+                    </label>
+                    <label>
+                        Target date
+                        <input id="targetDate" name="target_date" type="date">
+                    </label>
+                </div>
+
+                <button class="release-btn" type="submit">Release the lantern ✦</button>
+                <p class="form-error" id="formError" role="alert"></p>
+            </form>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
