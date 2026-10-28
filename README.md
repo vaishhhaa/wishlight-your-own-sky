@@ -1,6 +1,3 @@
-# wishlight-your-own-sky
-A dreamy little universe where wishes glow as floating lanterns, dreams find their sky, and the moon dances through its phases. 🌙🏮✨
-
 # 🌙 Wishlight — Everyone Deserves Their Own Sky
 
 *A little universe of dreams, glowing lanterns, and wishes waiting to come true.*
