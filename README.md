@@ -28,33 +28,33 @@ I wanted to create an experience that brings together technology, creativity, an
 
 ### 🏠 1. Wishlight Homepage
 
-Welcome to your own sky — a peaceful night sky where your dreams come to life. Glowing lanterns represent your wishes, creating a magical and personal space for your hopes and goals.
+Welcome to your own sky — a peaceful night sky where your dreams come to life.
 
-![Wishlight Homepage](screenshots/homepage.png)
+![Wishlight Homepage](screenshots/homepage.png.png)
 
 ### ✨ 2. Create a New Wish
 
-Turn your dreams into wishes by adding a title, description, and other details. Wishlight makes it easy to capture the things you hope to achieve.
+Turn your dreams into wishes by adding a title, description, and other details.
 
-![Create a New Wish](screenshots/new-wish.png)
+![Create a New Wish](screenshots/new-wish.png.png)
 
 ### 📅 3. Set a Target Date
 
-Give every dream a date to work toward. The date picker lets you choose your desired completion date and gives your wishes a sense of direction and purpose.
+Choose a desired completion date and give every dream a sense of direction.
 
-![Wish Target Date Picker](screenshots/wish-date-picker.png)
+![Wish Target Date Picker](screenshots/wish-date-picker.png.png)
 
 ### 💼 4. Dream Job Wish Details
 
-View your wishes in detail and keep your goals close to your heart. Whether it is landing your dream job or achieving a personal milestone, every wish deserves a place in your sky.
+Keep your goals close to your heart and view the details of your dreams.
 
-![Dream Job Wish Details](screenshots/wish-details.png)
+![Dream Job Wish Details](screenshots/wish-details.png.png)
 
 ### ✈️ 5. Travel Dreams
 
-Your sky is filled with endless possibilities. From exploring new places to achieving lifelong dreams, Wishlight gives every aspiration its own little light.
+From exploring new places to achieving lifelong dreams, every aspiration deserves its own light.
 
-![Travel Wish Details](screenshots/wish-example.png)
+![Travel Wish Details](screenshots/wish-example.png.png)
 
 ---
 
